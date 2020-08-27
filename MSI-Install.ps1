@@ -1,6 +1,5 @@
 $Folder = Read-Host -Prompt "Folder where the msi is stored?"
 $MSI = Read-Host -Prompt "File name of the msi?"
-#Provide the filepath to a csv file you have prepared with the names of computers to install software on
 $Computers = Read-Host -Prompt "File path to .csv file with list of computers?"
 $FullPath = Join-Path -Path $Folder -ChildPath $MSI 
 
